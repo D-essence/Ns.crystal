@@ -118,29 +118,45 @@
       margin-bottom: 40px;
       max-width: 700px;
     }
-    
+
     .hero-badges {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 30px;
-    }
-    
-    .badge {
-      background-color: rgba(255, 255, 255, 0.15);
-      backdrop-filter: blur(10px);
-      padding: 8px 16px;
-      border-radius: 50px;
-      font-size: 0.9rem;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    
-    .badge i {
-      font-size: 1.1rem;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0 auto 30px;
+  max-width: 700px;
+}
+
+.badge {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-3px);
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.badge i {
+  font-size: 1.1rem;
+  color: var(--gradient-end);
+}
     
     .cta-btn {
       display: inline-block;
@@ -777,8 +793,8 @@
   <!-- Catchphrase Section -->
   <div class="catchphrase">
     <div class="container">
-      <h2 class="catchphrase-text">ミスコン出場者、有名インスタグラマー、人気TikTokerも勢揃い！</h2>
-      <p class="catchphrase-sub">N's Crystalは愛知県内でトップクラスの学生が集まる最上級のイベントサークル。SNSインフルエンサーやアイドルも多数参加。</p>
+      <h2 class="catchphrase-text">人気TikToker<br>ミスコン出場者も勢揃い！</h2>
+      <p class="catchphrase-sub">N's Crystalは愛知県内でトップクラスの学生達が集まる最上級のイベントサークル。SNSインフルエンサーやアイドルも多数参加。</p>
     </div>
   </div>
   
@@ -817,7 +833,7 @@
           </div>
           <div class="activity-content">
             <h3 class="activity-title">ハロウィンパーティー</h3>
-            <p class="activity-description">名古屋最大級のコスチュームパーティー。毎年チケットが完売必至の人気イベント。これは流石にクオリティ高すぎる！！</p>
+            <p class="activity-description">名古屋最大級のコスチュームパーティー。毎年チケットが完売必至の人気イベント。クオリティが高すぎることで有名です。</p>
             <span class="activity-date">10月</span>
           </div>
         </div>
@@ -828,7 +844,7 @@
           </div>
           <div class="activity-content">
             <h3 class="activity-title">クリスマスイベント</h3>
-            <p class="activity-description">最高の仲間たちと華やかなパーティー。特別な一夜をあなたに。※24日,25日とは日程は重なりません。家族や恋人とお過ごし下さい。</p>
+            <p class="activity-description">最高の仲間たちと華やかなパーティー。特別な一夜をあなたに。※24日,25日とは日程は重なりませんので、ご安心下さい。</p>
             <span class="activity-date">12月</span>
           </div>
         </div>
@@ -913,7 +929,7 @@
   <div class="section registration" id="registration">
     <div class="container">
       <h2 class="registration-title">参加申し込み</h2>
-      <p class="registration-subtitle">限定50名様のみのプレミアムイベント。残席わずかのため、お早めにお申し込みください。最短1分で予約！！</p>
+      <p class="registration-subtitle">限定50名様のみのプレミアムイベント。残席わずかのため、お早めにお申し込みください。最短1分で予約完了！！</p>
       
       <div class="countdown">
         <div class="countdown-item">
